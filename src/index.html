@@ -1,14 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
   <meta charset="utf-8">
-  <title>AngularBadges</title>
+  <title>NinjaDirectory</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="/style.css" rel="stylesheet" type="text/css">
+
+  <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>Loading...</app-root>
 </body>
+
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBO6e7T8oa7kTL6I7eQDvla0v8zZvyaZg0",
+      authDomain: "ninja-ba01c.firebaseapp.com",
+      databaseURL: "https://ninja-ba01c.firebaseio.com",
+      projectId: "ninja-ba01c",
+      storageBucket: "ninja-ba01c.appspot.com",
+      messagingSenderId: "628892449566"
+    };
+    firebase.initializeApp(config);
+  </script>
 </html>
