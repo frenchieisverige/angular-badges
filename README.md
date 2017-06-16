@@ -29,6 +29,8 @@ Then, open your web browser, and go to `http://localhost:4200/` to interact with
 
 ## Results
 
+![alt tag](https://github.com/frenchieisverige/angular-badges/blob/master/res/screenshot.png)
+
 ## Built With
 
 * [node.js](https://nodejs.org/en/) - JavaScript runtime
