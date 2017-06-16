@@ -1,6 +1,6 @@
 # Angular-badges
 
-Through this App, I could put in pratice the fundamentals of Angular2 and Firebase.
+Through this App, I could put in pratice the fundamentals of Angular2 and Firebase learned on Youtube.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This AngularApp was fully developped under Linux. The linux distribution used was Arch Linux. Moreover, a core software is required on the server side in order to run this master thesis: NodeJS.
+This AngularApp was fully developped under Linux. The linux distribution used was Arch Linux 4.11.3-1-ARCH. Moreover, a core software is required on the server side in order to run this app: NodeJS.
 
 ```
 yaourt -Syy nodejs
@@ -18,8 +18,6 @@ This will also install `npm`, required to install some other packages:
 yaourt -Syy typescript @angular/cli
 ```
 ### Installing
-
-#### Server side
 
 Once all this software are installed on the server side, you can clone this repo and launch a quick web server:
 ```
