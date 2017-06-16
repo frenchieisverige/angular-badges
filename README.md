@@ -1,28 +1,45 @@
-# AngularBadges
+# Angular-badges
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+Through this App, I could put in pratice the fundamentals of Angular2 and Firebase.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+This AngularApp was fully developped under Linux. The linux distribution used was Arch Linux. Moreover, a core software is required on the server side in order to run this master thesis: NodeJS.
 
-## Build
+```
+yaourt -Syy nodejs
+```
+This will also install `npm`, required to install some other packages:
+```
+yaourt -Syy typescript @angular/cli
+```
+### Installing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+#### Server side
 
-## Running unit tests
+Once all this software are installed on the server side, you can clone this repo and launch a quick web server:
+```
+ng serve
+```
+Then, open your web browser, and go to `http://localhost:4200/` to interact with the App!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Results
 
-## Running end-to-end tests
+## Built With
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+* [node.js](https://nodejs.org/en/) - JavaScript runtime
+* [typescript](https://www.typescriptlang.org/) - Bring types to Javascript!
+* [@angular/cli](https://cli.angular.io/) - Genrate Angular projects easily!
+* [atom](https://atom.io/) - A hackable text editor for the 21st Century!
 
-## Further help
+## Authors
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* **FrenchieiSverige** - *Initial work* - [angular-badges](https://github.com/frenchieisverige/)
+
+
+
+
